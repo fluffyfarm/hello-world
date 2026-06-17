@@ -3,7 +3,8 @@ from dash import Dash, html
 app = Dash()
 
 app.layout = [html.Div(children=[
-    html.H1(children="Hello World")
+    html.H1(children="Hello World from Dash! \n" \
+    "This is an app from github CI/CD pipeline"),
     ])
 ]
 
