@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/<github-username>/hello-world:latest
+          tags: ghcr.io/fluffyfarm/hello-world:latest
